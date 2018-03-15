@@ -113,8 +113,8 @@ footer {
 
 h3, h2 {
   padding-bottom: 20px;
-  margin-bottom: 15px;
   line-height: 22px;
+  margin-bottom: 15px;
   border-bottom: 2px solid #eee;
 }
 
@@ -147,9 +147,9 @@ h3, h2 {
 .masks {
   position: relative;
   float: left;
+  overflow: auto;
   width: 300px;
   margin: 25px 0 25px;
-  overflow: auto;
 }
 
 .masks:nth-child(even) {
@@ -158,18 +158,18 @@ h3, h2 {
 
 .masks img {
   width: 100%;
-  border: 0 none;
   opacity: 0.8;
+  border: 0 none;
 }
 
 .masks h3 {
   position: absolute;
   bottom: 20px;
   width: 100%;
+  line-height: 30px;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
-  line-height: 30px;
   color: #fff;
   text-align: center;
   background: #4aaaa5;
@@ -192,7 +192,6 @@ h3, h2 {
 }
 
 
-
 label,
 input[type=text],
 input[type=email],
@@ -206,8 +205,8 @@ input[type=email],
 textarea {
   height: 35px;
   padding: 0 10px;
-  font-size: 14px;
   border: 1px solid #ddd;
+  font-size: 14px;
 }
 
 textarea {
@@ -217,9 +216,9 @@ textarea {
 input[type=submit] {
   padding: 10px 30px;
   font-size: 18px;
+  background: #4aaaa5;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
   border: 0 none;
 }
 
