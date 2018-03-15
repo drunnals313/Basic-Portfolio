@@ -17,10 +17,12 @@ p {
   margin-bottom: 20px;
 }
 
+/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
 p:last-child {
   margin-bottom: 0;
 }
 
+/* header elements that go everywhere */
 h1,
 h2,
 h3 {
@@ -29,7 +31,7 @@ h3 {
   color: #4aaaa5;
 }
 
-
+/* header 1 elements that go everywhere */
 h1 {
   padding-bottom: 20px;
   font-size: 30px;
@@ -37,11 +39,20 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
+/* header 2 and 3 elements that go everywhere */
 h2,
 h3 {
   font-size: 22px;
 }
 
+h3, h2 {
+  padding-bottom: 20px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+/* container around the nav and the about me stuff too */
 .container {
   width: 100%;
   max-width: 960px;
@@ -49,7 +60,7 @@ h3 {
   clear: both;
 }
 
-/* top header section */
+/* this element guy is the top header section outside of the container nav stuff above */
 
 #secondheader {
   position: fixed;
@@ -62,11 +73,11 @@ h3 {
   width: 100%;
 }
 
-
+/* this guy is the id associated with my large name part that links back tot he index page */
 #me {
   float: left;
-  width: 250px;
-  height: 90px;
+  width: 275px;
+  height: 100px;
   text-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -93,30 +104,31 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
+nav a:hover {
+  background-color: #555;
+  color: green;
+}
+
+/* The :last-child selector matches every element that is the last child of its parent. */
 nav a:first-child {
   border-left: 0 none;
 }
 
-/* footer */
+/* footer and all the parameters */
 
 footer {
   padding: 30px 0;
   clear: both;
-  font-size: 12px;
+  font-size: 10px;
+  height: 20px;
   text-align: center;
   background: #666;
   color: #fff;
   color: #ccc;
   border-top: 8px solid #4aaaa5;
-  height: 40px;
 }
 
-h3, h2 {
-  padding-bottom: 20px;
-  line-height: 22px;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #eee;
-}
+
 
 /* parent container section */
 
@@ -152,15 +164,18 @@ h3, h2 {
   margin: 25px 0 25px;
 }
 
+/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
 .masks:nth-child(even) {
   margin-right: 50px;
 }
+
 
 .masks img {
   width: 100%;
   opacity: 0.8;
   border: 0 none;
 }
+
 
 .masks h3 {
   position: absolute;
@@ -176,19 +191,26 @@ h3, h2 {
   border-bottom: 0;
 }
 
+/*W3 School ref: Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
+
+The code below ensures that all elements are sized in this more intuitive way. Many browsers already use box-sizing: border-box; for many form elements (but not all - which is why inputs and text areas look different at width: 100%;).
+
+Applying this to all elements is safe and wise:*/
 * {
   box-sizing: border-box;
 }
 
 
 /* contact form slice */
+
+/* list id */
 #con li {
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
-
+/* list id */
 #con ul {
-  margin-bottom: 20px;
+  margin-bottom: 21px;
 }
 
 
@@ -203,8 +225,8 @@ textarea {
 input[type=text],
 input[type=email],
 textarea {
-  height: 35px;
-  padding: 0 10px;
+  height: 40px;
+  padding: 0 9px;
   border: 1px solid #ddd;
   font-size: 14px;
 }
@@ -214,14 +236,15 @@ textarea {
 }
 
 input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
+  padding: 9px 27px;
+  font-size: 14px;
   background: #4aaaa5;
   color: #fff;
   cursor: pointer;
   border: 0 none;
 }
 
+/* some parameters for the picture of dave so that the text doesn't crowd in there so tight */
 #meimage {
   float: left;
   padding-right: 20px;
