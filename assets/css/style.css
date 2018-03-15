@@ -106,7 +106,6 @@ nav a {
 
 /* hover of the navigation bars and then */
 nav a:hover {
-  background-color: #555;
   color: blue;
 }
 
