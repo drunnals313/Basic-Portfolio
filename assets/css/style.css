@@ -1,4 +1,4 @@
-/* body */
+/* main body for each of the nav pages */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
@@ -8,7 +8,7 @@ body {
 
 
 
-/* overall elements */
+/* overall elements that go everywhere */
 
 h1,
 h2,
@@ -54,12 +54,12 @@ h3 {
 #secondheader {
   position: fixed;
   z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
 }
 
 
@@ -223,5 +223,5 @@ input[type=submit] {
 
 #meimage {
   float: left;
-
+  padding-right: 20px;
 }
