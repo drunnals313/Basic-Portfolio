@@ -104,9 +104,10 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
+/* hover of the navigation bars and then */
 nav a:hover {
   background-color: #555;
-  color: green;
+  color: blue;
 }
 
 /* The :last-child selector matches every element that is the last child of its parent. */
