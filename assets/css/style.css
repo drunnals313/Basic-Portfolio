@@ -7,11 +7,9 @@ body {
   background: url("../images/concrete_seamless.png");
 }
 
-* {
-  box-sizing: border-box;
-}
 
-/* overall */
+
+/* overall elements */
 
 h1,
 h2,
