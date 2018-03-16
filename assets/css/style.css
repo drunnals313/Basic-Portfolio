@@ -64,7 +64,7 @@ h3, h2 {
 
 #secondheader {
   position: fixed;
-  z-index: 99;
+  z-index: 81;
   color: #fff;
   margin: 0 0 30px;
   overflow: auto;
@@ -117,10 +117,10 @@ nav a:first-child {
 /* footer and all the parameters */
 
 footer {
-  padding: 30px 0;
+  padding: 21px 0;
   clear: both;
   font-size: 10px;
-  height: 20px;
+  height: 15px;
   text-align: center;
   background: #666;
   color: #fff;
@@ -157,9 +157,9 @@ footer {
 }
 
 .masks {
+  overflow: auto;
   position: relative;
   float: left;
-  overflow: auto;
   width: 300px;
   margin: 25px 0 25px;
 }
@@ -172,7 +172,7 @@ footer {
 
 .masks img {
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   border: 0 none;
 }
 
