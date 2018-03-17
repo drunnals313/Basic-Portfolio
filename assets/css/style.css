@@ -1,8 +1,14 @@
+/* some parameters for the picture of dave so that the text doesn't crowd in there so tight */
+#meimage {
+  float: left;
+  padding-right: 20px;
+}
+
 /* main body for each of the nav pages */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
-  color: #777;
+  color: #777777;
   line-height: 34px;
 }
 
@@ -11,7 +17,6 @@ body {
 /* overall elements that go everywhere */
 
 h1,
-h2,
 h3,
 p {
   margin-bottom: 20px;
@@ -24,7 +29,6 @@ p:last-child {
 
 /* header elements that go everywhere */
 h1,
-h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
@@ -34,24 +38,28 @@ h3 {
 /* header 1 elements that go everywhere */
 h1 {
   padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  font-size: 33px;
+  line-height: 66px;
+  border-bottom: 3px solid #dddddd;
 }
 
-/* header 2 and 3 elements that go everywhere */
-h2,
+/* header 3 elements that go to all */
+
 h3 {
   font-size: 22px;
+  padding-bottom: 20px;
+  line-height: 22px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eeeeee;
 }
-
+/*
 h3, h2 {
   padding-bottom: 20px;
   line-height: 22px;
   margin-bottom: 15px;
   border-bottom: 2px solid #eee;
 }
-
+*/
 /* container around the nav and the about me stuff too */
 .container {
   width: 100%;
@@ -65,11 +73,11 @@ h3, h2 {
 #secondheader {
   position: fixed;
   z-index: 81;
-  color: #fff;
+  color: #ffffff;
   margin: 0 0 30px;
   overflow: auto;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
   width: 100%;
 }
 
@@ -83,7 +91,7 @@ h3, h2 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   background: #4aaaa5;
 }
@@ -99,17 +107,18 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: rgb(153, 153, 153);
   text-decoration: none;
-  border-left: 1px solid #efefef;
+  border-left: 1px solid #e9e8e8;
 }
 
 /* hover of the navigation bars and then */
 nav a:hover {
-  color: blue;
+  color: rgb(22, 22, 221);
 }
 
-/* The :last-child selector matches every element that is the last child of its parent. */
+/* The :last-child selector matches every element that is the last child of its parent. I was having trouble with the nav boarders when I applied the nav hoover css and also have the background color change and show the uneven edges. I might not need this anymore now that my hoover now only changes text to blue */
+/*
 nav a:first-child {
   border-left: 0 none;
 }
@@ -117,7 +126,7 @@ nav a:first-child {
 nav a:last-child {
   border-right: 0 none;
 }
-
+*/
 /* footer and all the parameters */
 
 footer {
@@ -126,10 +135,12 @@ footer {
   font-size: 10px;
   height: 21px;
   text-align: center;
-  background: #666;
-  color: #fff;
-  color: #ccc;
+  background: #666666;
+  color: #ffffff;
+  color: #cccccc;
   border-top: 8px solid #4aaaa5;
+  margin-bottom: 13px;
+  vertical-align: middle;
 }
 
 
@@ -147,8 +158,8 @@ footer {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #fff;
-  border: 1px solid #ddd;
+  background: #ffffff;
+  border: 1px solid #dddddd;
 }
 
 /* 5 picture portfolio slice */
@@ -169,13 +180,14 @@ footer {
 }
 
 /* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
-.masks:nth-child(even) {
+.masks:nth-child(2n) {
   margin-right: 50px;
 }
 
 
 .masks img {
   width: 100%;
+  height: auto;
   opacity: 0.9;
   border: 0 none;
 }
@@ -188,11 +200,11 @@ footer {
   line-height: 30px;
   padding: 15px;
   margin-bottom: 0;
+  border-bottom: 0;
   font-weight: 300;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   background: #4aaaa5;
-  border-bottom: 0;
 }
 
 /*W3 School ref: Since the result of using the box-sizing: border-box; is so much better, many developers want all elements on their pages to work this way.
@@ -209,7 +221,7 @@ Applying this to all elements is safe and wise:*/
 
 /* list id */
 #con li {
-  margin-bottom: 13px;
+  margin-bottom: 21px;
 }
 
 /* list id */
@@ -248,8 +260,3 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* some parameters for the picture of dave so that the text doesn't crowd in there so tight */
-#meimage {
-  float: left;
-  padding-right: 20px;
-}
