@@ -117,18 +117,8 @@ nav a:hover {
   color: rgb(22, 22, 221);
 }
 
-/* The :last-child selector matches every element that is the last child of its parent. I was having trouble with the nav boarders when I applied the nav hoover css and also have the background color change and show the uneven edges. I might not need this anymore now that my hoover now only changes text to blue */
-/*
-nav a:first-child {
-  border-left: 0 none;
-}
 
-nav a:last-child {
-  border-right: 0 none;
-}
-*/
 /* footer and all the parameters */
-
 footer {
   padding: 21px 2px;
   clear: both;
@@ -136,7 +126,6 @@ footer {
   height: 21px;
   text-align: center;
   background: #666666;
-  color: #ffffff;
   color: #cccccc;
   border-top: 8px solid #4aaaa5;
   margin-bottom: 13px;
@@ -146,7 +135,6 @@ footer {
 
 
 /* parent container section */
-
 #parentcontainer {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
