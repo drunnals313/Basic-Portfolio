@@ -4,12 +4,15 @@
   padding-right: 20px;
 }
 
-/* main body for each of the nav pages */
+/* main body for each of the nav pages: I cannot get the background image to appear without putting the file within the css referenced folder */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   color: #777777;
   line-height: 34px;
+  background-image: url(extra_clean_paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -85,7 +88,7 @@ h3, h2 {
 #me {
   float: left;
   width: 275px;
-  height: 100px;
+  height: 94px;
   text-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
